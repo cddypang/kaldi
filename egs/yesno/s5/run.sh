@@ -13,7 +13,7 @@ decode_cmd="utils/run.pl"
 train_yesno=train_yesno
 test_base_name=test_yesno
 
-# 删除原有缓存文件
+# 鍒犻櫎鍘熸湁缂撳瓨鏂囦欢
 rm -rf data exp mfcc
 
 # Data preparation
