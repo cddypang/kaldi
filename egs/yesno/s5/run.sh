@@ -3,16 +3,17 @@
 train_cmd="utils/run.pl"
 decode_cmd="utils/run.pl"
 
-if [ ! -d waves_yesno ]; then
-  wget http://www.openslr.org/resources/1/waves_yesno.tar.gz || exit 1;
-  # was:
-  # wget http://sourceforge.net/projects/kaldi/files/waves_yesno.tar.gz || exit 1;
-  tar -xvzf waves_yesno.tar.gz || exit 1;
-fi
+#if [ ! -d waves_yesno ]; then
+#  wget http://www.openslr.org/resources/1/waves_yesno.tar.gz || exit 1;
+#  # was:
+#  # wget http://sourceforge.net/projects/kaldi/files/waves_yesno.tar.gz || exit 1;
+#  tar -xvzf waves_yesno.tar.gz || exit 1;
+#fi
 
 train_yesno=train_yesno
 test_base_name=test_yesno
 
+# 删除原有缓存文件
 rm -rf data exp mfcc
 
 # Data preparation
