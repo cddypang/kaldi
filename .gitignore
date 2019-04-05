@@ -147,3 +147,17 @@ GSYMS
 /tools/cub-1.8.0.zip
 /tools/cub-1.8.0/
 /tools/cub
+
+# for cddypang
+*.DS_Store
+*.wav
+#*.tar.gz
+/src/html
+cvte/
+thchs30/
+egs/
+/src/.project
+/src/.cproject
+/src/.settings
+/tools/python/*
+
